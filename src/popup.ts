@@ -419,7 +419,6 @@ export function renderPopup(card: AreaCardPlus): TemplateResult {
                             ...(domain === "switch" && {
                               features: [{ type: "toggle" }],
                             }),
-                            }),
                             ...(domain === "input_boolean" && {
                               features: [{ type: "toggle" }],
                             }),
