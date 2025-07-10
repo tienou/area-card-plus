@@ -1001,6 +1001,7 @@ export const DEVICE_CLASSES = {
 export type DomainType =
   | "light"
   | "switch"
+  | "input_boolean"
   | "fan"
   | "climate"
   | "media_player"
@@ -1012,6 +1013,7 @@ export type DomainType =
 export const DOMAIN_ICONS = {
   light: { on: "mdi:lightbulb-multiple", off: "mdi:lightbulb-multiple-off" },
   switch: { on: "mdi:toggle-switch", off: "mdi:toggle-switch-off" },
+  input_boolean: { on: "mdi:toggle-switch", off: "mdi:toggle-switch-off" },
   fan: { on: "mdi:fan", off: "mdi:fan-off" },
   climate: { on: "mdi:fan", off: "mdi:fan-off" },
   media_player: { on: "mdi:cast", off: "mdi:cast-off" },
